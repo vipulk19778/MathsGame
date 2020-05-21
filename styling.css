@@ -163,7 +163,8 @@ html {
     background: -moz-linear-gradient(#F3CA6B, #F3706C);
     top: 100px;
     left: 45px;
-    color: white;
+    color: #ffffff;
+    position: absolute;
     text-align: center;
     font-size: 2.5em;
     text-transform: uppercase;
