@@ -7,7 +7,7 @@ html {
 }
 
 #container {
-    height: 410px;
+    height: 415px;
     width: 550px;
     background-color: #9DD2EA;
     margin: 100px auto;
@@ -101,7 +101,8 @@ html {
     position: relative;
 }
 
-.box:hover, #startreset:hover {
+.box:hover,
+#startreset:hover {
     background: #9C89FC;
     color: white;
     box-shadow: 0px 4px #6b54d3;
@@ -109,7 +110,8 @@ html {
     -moz-box-shadow: 0px 4px #6b54d3;
 }
 
-.box:active, #startreset:active {
+.box:active,
+#startreset:active {
     box-shadow: 0px 0px #6b54d3;
     -webkit-box-shadow: 0px 0px #6b54d3;
     -moz-box-shadow: 0px 0px #6b54d3;
@@ -163,11 +165,17 @@ html {
     background: -moz-linear-gradient(#F3CA6B, #F3706C);
     top: 100px;
     left: 45px;
-    color: #ffffff;
-    position: absolute;
+    color: white;
     text-align: center;
     font-size: 2.5em;
     text-transform: uppercase;
     z-index: 2;
+    position: absolute;
     display: none;
+}
+
+@media (max-width:480px) {
+    #startreset {
+        width: 100px;
+    }
 }
