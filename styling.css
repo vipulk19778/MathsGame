@@ -178,4 +178,11 @@ html {
     #startreset {
         width: 100px;
     }
+    #timeremaining {
+        position: absolute;
+        top: 400px;
+        left: 380px;
+        padding-right: 0px;
+        font-size: 15px;
+    }
 }
